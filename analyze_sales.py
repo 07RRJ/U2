@@ -3,6 +3,7 @@ import csv
 import os
 import locale
 
+all_products = []
 
 def load_sales(filename):
     products = {}  #ordbok dictionary
